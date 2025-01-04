@@ -1,11 +1,13 @@
-let myProductName: string = 'Product 1';
-let myProductPrice: number = 123;
+//Función anónima autoejecutada
+(()=> {
+  let myProductName: string = 'Product 1';
+  let myProductPrice: number = 123;
 
-myProductName = 'Product 2';
-myProductName.toLocaleUpperCase();
+  myProductName = 'Product 2';
+  myProductName.toLocaleUpperCase();
 
-myProductPrice.toFixed();
+  myProductPrice.toFixed();
 
-const myProductStock = 1000;
-const myProductName2 = 'Product 2';
-
+  const myProductStock = 1000;
+  const myProductName2 = 'Product 2';
+})(); // al agregarle un '()' alfinal se autoejecuta
