@@ -11,3 +11,19 @@ npx tsc src/*.ts --target es6 --outDir dist
 ```
 
 Por defecto nos lo generará en ES3
+
+## TSConfig.json
+Nos crea el TSConfig.json
+```
+npx tsc --init
+```
+
+Nos va a ejecutar el archivo tsconfig.json
+```
+npx tsc 
+```
+
+Constantemente nos va a estar leyendo los ts y los va a estar mirando (es como que va compilando los archivos ts a js en tiempo real)
+```
+npx tsc --watch
+```
